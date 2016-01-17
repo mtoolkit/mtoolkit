@@ -1,0 +1,57 @@
+{
+  "name": "mtoolkit/mtoolkit",
+  "version": "0.0.2",
+  "description": "PHP framework to write less and do more",
+  "keywords": ["framework","toolkit", "Qt", ".NET", "web framework", "php", "fast", "simple", "free", "library"],
+  "type": "metapackage",
+  "homepage": "http://mtoolkit.github.io/mtoolkit/",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Michele Pagnin",
+      "email": "pagnin.michele@gmail.com",
+      "homepage": "http://mpmp.altervista.org",
+      "role": "Main Developer"
+    }
+  ],
+  "support": {
+    "email": "pagnin.michele@gmail.com"
+  },
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-core/"
+    },
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-controller/"
+    },
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-model/"
+    },
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-view/"
+    },
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-cache/"
+    },
+    {
+      "type": "vcs",
+      "url": "../mtoolkit-network/"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.3.0",
+    "mtoolkit/mtoolkit-core": "dev-master",
+    "mtoolkit/mtoolkit-controller": "dev-master",
+    "mtoolkit/mtoolkit-model": "dev-master",
+    "mtoolkit/mtoolkit-view": "dev-master",
+    "mtoolkit/mtoolkit-network": "dev-master",
+    "mtoolkit/mtoolkit-cache": "dev-master"
+  }
+}
