@@ -57,7 +57,7 @@ composer require mpstyle/mtoolkit
 - Decoupling between business logic and graphics
 - Fluent setters
 
-#<a name="mtoolkit_module"></a>MToolkit module
+#<a name="mtoolkit_module"></a>MToolkit modules
 Like Qt, MToolkit has a lot of modules, one for every type of usage.
 Here you are the list:
 - [Core](https://github.com/mtoolkit/mtoolkit-core)
