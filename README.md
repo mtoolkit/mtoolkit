@@ -2,12 +2,12 @@ MToolkit
 ========
 
 #Summary
--[Intro](#into)
--[Some good features](#some_good_features)
--[Install](#install)
--[MToolkit modules](#mtoolkit_modules)
--[Software using MToolkit](#software_using_mtoolkit)
--[Let's start](#lets_start)
+- [Intro](#into)
+- [Some good features](#some_good_features)
+- [Install](#install)
+- [MToolkit modules](#mtoolkit_modules)
+- [Software using MToolkit](#software_using_mtoolkit)
+- [Let's start](#lets_start)
 
 #<a name="intro"></a>Intro
 
@@ -34,6 +34,18 @@ MToolkit was born like a mash-up of two frameworks: .NET and Qt. o_O
 Yes, the framework of the evil and the desktop framework for excellence.
 
 #<a name="install"></a>Install
+To have a full installation of the framework, add into your composer.json file:
+```json
+{
+    "require": {
+        "mtoolkit/mtoolkit": "0.1.*"
+    }
+}
+```
+Or run the console command:
+```
+composer require mpstyle/mtoolkit
+```
 
 #<a name="some_good_features"></a>Some good features
 - Completely Object Oriented
