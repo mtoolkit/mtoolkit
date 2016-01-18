@@ -17,34 +17,6 @@
   "support": {
     "email": "pagnin.michele@gmail.com"
   },
-
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-core/"
-    },
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-controller/"
-    },
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-model/"
-    },
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-view/"
-    },
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-cache/"
-    },
-    {
-      "type": "vcs",
-      "url": "../mtoolkit-network/"
-    }
-  ],
-
   "require": {
     "php": ">=5.3.0",
     "mtoolkit/mtoolkit-core": "dev-master",
