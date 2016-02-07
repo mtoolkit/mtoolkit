@@ -113,10 +113,13 @@ Settings::run();
 
 **This file must be included in every entry page of your project.**
 
-##Entry page
+If you use PSR-0 or PSR-4 standard, instead of the following code:
+```php
+MApplication::setApplicationDirPath(__DIR__);
+```
+You can use the [Composer autoload](https://getcomposer.org/doc/04-schema.md#autoload). 
 
-An entry page is the page loaded at start time.
-Now, we will see how to create the controller of the entry page and his html code.
+## Create a page
 
 Controller (Index.php):
 
@@ -125,7 +128,7 @@ Controller (Index.php):
 
 require_once __DIR__ . '/Settings.php';
 
-use \MToolkit\Controller\MAbstractPageController;
+use \MToolkit\Controller\MPageController;
 
 class Index extends MAbstractPageController
 {
